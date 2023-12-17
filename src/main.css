@@ -27,10 +27,13 @@ p{
   font-size: 1.2rem;
 }
 html, body{
-  scroll-behavior: smooth;
   font-family: 'Poppins', sans-serif;
   color: #111;
   background-color: var(--background-color);
+}
+
+.cover-body{
+  overflow: hidden;
 }
 /* .container{
   overflow-y:scroll;
@@ -192,12 +195,8 @@ position: relative;
 }
 
 .coming-soon{
-  position: fixed;
-   left: 6rem;
-   bottom: 12rem;
-   margin-top: 3rem;
+  margin-top: 10px;
 }
-
 
 
 .shows{

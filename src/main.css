@@ -121,7 +121,7 @@ html, body{
   background: var(--btn-color) ;
   columns: var(--primary-text-color);
   padding: 10px 30px;
-  margin: 12px 0;
+  margin: 12px 8px;
   border-radius:50px;
 }
 
@@ -189,6 +189,12 @@ position: relative;
 .cover-logo{
   height: 100px;
   width: 100px;
+}
+.cover-page-btns{
+  position: relative;
+  display: flex;
+  width: 20em;
+  margin: 2em 0;
 }
 
 .coming-soon{

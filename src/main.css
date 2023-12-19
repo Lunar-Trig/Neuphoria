@@ -185,7 +185,7 @@ position: relative;
 .cover-content{
   position: absolute;
   width: 20%;
-  top: 20%;
+  top: 13%;
   left: 5%;
   display: grid;
 }
@@ -326,7 +326,17 @@ position: relative;
       margin-bottom: 20px;
   }
   
-  
+  /*connect*/
+.connect{
+  margin:1.7em;
+}
+#description{
+  margin-bottom:3.5em;
+}
+
+.option-one,.option-two{
+  display: inline-block;
+}
   
   /* for screens less 950pc*/
   @media screen and (max-width:950px){
